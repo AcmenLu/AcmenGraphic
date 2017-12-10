@@ -2,9 +2,7 @@
 #define _MAINWINDOWS_H
 #include <Windows.h>
 #include "Utils.h"
-#include <assert.h>
-#include <d3dx11.h>
-#include <xnamath.h>
+#include "GameTimer.h"
 
 class MainWindows
 {
@@ -18,6 +16,7 @@ private:
 	int			mClientWidth;
 	int			mClientHeight;
 	OnIdle		mIdleFunc;
+	GameTimer	mTimer;
 
 private:
 	static long __stdcall MainWndProc( HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam );
@@ -27,12 +26,13 @@ public:
 		char* winName = "AcmenEngine",
 		int width = 800, int height = 600 )
 		:mHInstance( hInstance ), mWinName( winName ),
-		mClientWidth( width ), mClientHeight( height )
+		mClientWidth( width ), mClientHeight( height ),
+		mIdleFunc( 0 )
 	{
 
 	}
 
-	~MainWindows( );
+	~MainWindows( ){ }
 	
 	inline int GetWindowsWidth( )
 		{ return mClientWidth; }
@@ -45,8 +45,12 @@ public:
 
 	inline HINSTANCE GetInstance( )
 		{ return mHInstance; }
+
 	inline void SetOnIdleCallBack( OnIdle funcprt )
 		{ mIdleFunc = funcprt; }
+
+	inline float AspectRatio( )const
+		{ return static_cast<float>( mClientWidth ) / mClientHeight; }
 
 	bool InitMainWindow( );
 	void MessageLoop( );

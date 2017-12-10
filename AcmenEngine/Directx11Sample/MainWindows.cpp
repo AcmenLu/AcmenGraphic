@@ -51,11 +51,13 @@ bool MainWindows::InitMainWindow( )
 
 void MainWindows::MessageLoop( )
 {
+	mTimer.Reset( );
 	MSG msg;
 	ZeroMemory( &msg, sizeof( MSG ) );
 	while ( msg.message != WM_QUIT )
 	{
-		if ( PeekMessage( &msg, NULL, 0, 0,PM_REMOVE ) )
+		mTimer.Tick();
+		if ( PeekMessage( &msg, NULL, 0, 0, PM_REMOVE ) )
 		{
 			TranslateMessage( &msg );
 			DispatchMessage( &msg );
@@ -63,7 +65,7 @@ void MainWindows::MessageLoop( )
 		else
 		{
 			if ( *mIdleFunc )
-				mIdleFunc( 0 );
+				mIdleFunc( mTimer.DeltaTime( ) );
 		}
 	}
 }

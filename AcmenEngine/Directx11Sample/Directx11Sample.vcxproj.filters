@@ -15,30 +15,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MainWindows.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="DirectXBase.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="WinMain.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="DirectXInit.h">
-      <Filter>头文件</Filter>
     </ClCompile>
     <ClCompile Include="DirectXInit.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MainWindows.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sample\d3d11CodeSet1\Common\GameTimer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MainWindows.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="DirectXBase.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindows.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AcmenConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sample\d3d11CodeSet1\Common\GameTimer.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
