@@ -1,0 +1,87 @@
+﻿生成启动时间为 2017/12/22 8:44:46。
+     1>项目“G:\GitHubProject\AcmenGraphic\AcmenEngine\Directx11Sample\Directx11Sample.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DirectXInit.cpp DirectXLight.cpp
+         DirectXLight.cpp
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(12): warning C4005: “DXGI_STATUS_OCCLUDED”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49449) : 参见“DXGI_STATUS_OCCLUDED”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(13): warning C4005: “DXGI_STATUS_CLIPPED”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49458) : 参见“DXGI_STATUS_CLIPPED”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(14): warning C4005: “DXGI_STATUS_NO_REDIRECTION”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49467) : 参见“DXGI_STATUS_NO_REDIRECTION”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(15): warning C4005: “DXGI_STATUS_NO_DESKTOP_ACCESS”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49476) : 参见“DXGI_STATUS_NO_DESKTOP_ACCESS”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(16): warning C4005: “DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49485) : 参见“DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(17): warning C4005: “DXGI_STATUS_MODE_CHANGED”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49494) : 参见“DXGI_STATUS_MODE_CHANGED”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(18): warning C4005: “DXGI_STATUS_MODE_CHANGE_IN_PROGRESS”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49503) : 参见“DXGI_STATUS_MODE_CHANGE_IN_PROGRESS”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(21): warning C4005: “DXGI_ERROR_INVALID_CALL”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49518) : 参见“DXGI_ERROR_INVALID_CALL”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(22): warning C4005: “DXGI_ERROR_NOT_FOUND”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49527) : 参见“DXGI_ERROR_NOT_FOUND”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(23): warning C4005: “DXGI_ERROR_MORE_DATA”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49536) : 参见“DXGI_ERROR_MORE_DATA”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(24): warning C4005: “DXGI_ERROR_UNSUPPORTED”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49545) : 参见“DXGI_ERROR_UNSUPPORTED”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(25): warning C4005: “DXGI_ERROR_DEVICE_REMOVED”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49554) : 参见“DXGI_ERROR_DEVICE_REMOVED”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(26): warning C4005: “DXGI_ERROR_DEVICE_HUNG”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49563) : 参见“DXGI_ERROR_DEVICE_HUNG”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(27): warning C4005: “DXGI_ERROR_DEVICE_RESET”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49573) : 参见“DXGI_ERROR_DEVICE_RESET”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(28): warning C4005: “DXGI_ERROR_WAS_STILL_DRAWING”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49582) : 参见“DXGI_ERROR_WAS_STILL_DRAWING”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(29): warning C4005: “DXGI_ERROR_FRAME_STATISTICS_DISJOINT”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49592) : 参见“DXGI_ERROR_FRAME_STATISTICS_DISJOINT”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(30): warning C4005: “DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49601) : 参见“DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(31): warning C4005: “DXGI_ERROR_DRIVER_INTERNAL_ERROR”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49611) : 参见“DXGI_ERROR_DRIVER_INTERNAL_ERROR”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(32): warning C4005: “DXGI_ERROR_NONEXCLUSIVE”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49620) : 参见“DXGI_ERROR_NONEXCLUSIVE”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(33): warning C4005: “DXGI_ERROR_NOT_CURRENTLY_AVAILABLE”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49629) : 参见“DXGI_ERROR_NOT_CURRENTLY_AVAILABLE”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(34): warning C4005: “DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49639) : 参见“DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\dxgitype.h(35): warning C4005: “DXGI_ERROR_REMOTE_OUTOFMEMORY”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49648) : 参见“DXGI_ERROR_REMOTE_OUTOFMEMORY”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\d3d11.h(917): warning C4005: “D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49817) : 参见“D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\d3d11.h(918): warning C4005: “D3D11_ERROR_FILE_NOT_FOUND”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49826) : 参见“D3D11_ERROR_FILE_NOT_FOUND”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\d3d11.h(919): warning C4005: “D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49836) : 参见“D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\d3d11.h(920): warning C4005: “D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49845) : 参见“D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\d3d10.h(608): warning C4005: “D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49793) : 参见“D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”的前一个定义
+     1>g:\githubproject\acmengraphic\acmenengine\include\directx\d3d10.h(609): warning C4005: “D3D10_ERROR_FILE_NOT_FOUND”: 宏重定义
+                 c:\program files (x86)\windows kits\8.0\include\shared\winerror.h(49802) : 参见“D3D10_ERROR_FILE_NOT_FOUND”的前一个定义
+         DirectXInit.cpp
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\GitHubProject\AcmenGraphic\AcmenEngine\Project\Debug\Directx11Sample.exe" /INCREMENTAL /NOLOGO d3d11.lib d3dx11d.lib D3DCompiler.lib Effects11d.lib dxerr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\GitHubProject\AcmenGraphic\AcmenEngine\Project\Debug\Directx11Sample.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\GitHubProject\AcmenGraphic\AcmenEngine\Project\Debug\Directx11Sample.lib" /MACHINE:X86 Debug\DirectXBase.obj
+         Debug\DirectXBox.obj
+         Debug\DirectXInit.obj
+         Debug\DirectXInit.obj
+         Debug\DirectXLight.obj
+         Debug\GameTimer.obj
+         Debug\GeometryGenerator.obj
+         Debug\MainWindows.obj
+         Debug\MathHelper.obj
+     1>Debug\DirectXInit.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Effects11d.lib(d3dx11dbg.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“Effects11d.lib(d3dx11dbg.obj)”或在“G:\GitHubProject\AcmenGraphic\AcmenEngine\Project\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(d3dxGlobal.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“Effects11d.lib(d3dxGlobal.obj)”或在“G:\GitHubProject\AcmenGraphic\AcmenEngine\Project\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectAPI.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“Effects11d.lib(EffectAPI.obj)”或在“G:\GitHubProject\AcmenGraphic\AcmenEngine\Project\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectLoad.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“Effects11d.lib(EffectLoad.obj)”或在“G:\GitHubProject\AcmenGraphic\AcmenEngine\Project\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectNonRuntime.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“Effects11d.lib(EffectNonRuntime.obj)”或在“G:\GitHubProject\AcmenGraphic\AcmenEngine\Project\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectReflection.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“Effects11d.lib(EffectReflection.obj)”或在“G:\GitHubProject\AcmenGraphic\AcmenEngine\Project\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>Effects11d.lib(EffectRuntime.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“Effects11d.lib(EffectRuntime.obj)”或在“G:\GitHubProject\AcmenGraphic\AcmenEngine\Project\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         Directx11Sample.vcxproj -> G:\GitHubProject\AcmenGraphic\AcmenEngine\Project\Debug\Directx11Sample.exe
+     1>已完成生成项目“G:\GitHubProject\AcmenGraphic\AcmenEngine\Directx11Sample\Directx11Sample.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.99

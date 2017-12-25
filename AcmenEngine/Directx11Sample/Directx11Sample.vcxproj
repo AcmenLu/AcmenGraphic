@@ -50,7 +50,6 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>d3d11.lib;d3dx11d.lib;D3DCompiler.lib;Effects11d.lib;dxerr.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -67,17 +66,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Sample\d3d11CodeSet1\Common\GameTimer.cpp" />
     <ClCompile Include="DirectXBase.cpp" />
     <ClCompile Include="DirectXBox.cpp" />
     <ClCompile Include="DirectXInit.cpp" />
+    <ClCompile Include="DirectXInit.h" />
+    <ClCompile Include="DirectXLight.cpp" />
+    <ClCompile Include="DirectXTexture.cpp" />
+    <ClCompile Include="GameTimer.cpp" />
+    <ClCompile Include="GeometryGenerator.cpp" />
     <ClCompile Include="MainWindows.cpp" />
+    <ClCompile Include="MathHelper.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Sample\d3d11CodeSet1\Common\GameTimer.h" />
     <ClInclude Include="AcmenConfig.h" />
     <ClInclude Include="DirectXBase.h" />
+    <ClInclude Include="GameTimer.h" />
+    <ClInclude Include="GeometryGenerator.h" />
+    <ClInclude Include="LightHelper.h" />
     <ClInclude Include="MainWindows.h" />
+    <ClInclude Include="MathHelper.h" />
     <ClInclude Include="Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

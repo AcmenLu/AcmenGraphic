@@ -4,7 +4,7 @@ class DirectXInit: public DirectXBase
 {
 public:
 	DirectXInit( ){ }
-	DirectXInit( MainWindows* windows ):DirectXBase( windows ) { }
+	//DirectXInit( MainWindows* windows ):DirectXBase( windows ) { }
 	~DirectXInit( ){ }
 	void OnRender( );
 	bool SetUp( ){ return true; }

@@ -1,10 +1,8 @@
 #ifndef _DIRECTXBASE_H
 #define _DIRECTXBASE_H
 
-#include <d3dx11.h>
-#include <d3dx11effect.h>
-#include "MainWindows.h"
 #include "AcmenConfig.h"
+#include "MainWindows.h"
 
 class DirectXBase
 {

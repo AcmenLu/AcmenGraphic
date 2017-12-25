@@ -15,36 +15,60 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="MainWindows.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="DirectXBase.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="DirectXInit.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="DirectXInit.h">
+      <Filter>头文件</Filter>
     </ClCompile>
-    <ClCompile Include="MainWindows.cpp">
+    <ClCompile Include="DirectXInit.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="DirectXBox.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Sample\d3d11CodeSet1\Common\GameTimer.cpp">
+    <ClCompile Include="DirectXLight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXTexture.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MainWindows.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="DirectXBase.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Utils.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="MainWindows.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="AcmenConfig.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Sample\d3d11CodeSet1\Common\GameTimer.h">
+    <ClInclude Include="GameTimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LightHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

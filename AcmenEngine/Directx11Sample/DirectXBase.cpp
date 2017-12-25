@@ -64,6 +64,7 @@ bool DirectXBase::InitDirectX3D( )
 		MessageBox( 0, "Create device and swap chain failed!", 0, 0 );
 		return false;
 	}
+	OnResize( );
 	return true;
 }
 

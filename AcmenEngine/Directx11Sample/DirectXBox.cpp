@@ -1,3 +1,4 @@
+#define _DIRECTXBOX_H
 #ifndef _DIRECTXBOX_H
 #define _DIRECTXBOX_H
 
@@ -147,7 +148,7 @@ bool DirectXBox::BuildShader( )
  
 	ID3D10Blob* compiledShader = 0;
 	ID3D10Blob* compilationMsgs = 0;
-	HRESULT hr = D3DX11CompileFromFile( "color.fx", 0, 0, 0, "fx_5_0", shaderFlags, 
+	HRESULT hr = D3DX11CompileFromFile( "FX/color.fx", 0, 0, 0, "fx_5_0", shaderFlags, 
 		0, 0, &compiledShader, &compilationMsgs, 0 );
 
 	// compilationMsgs can store errors or warnings.
